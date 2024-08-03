@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Space+Grotesk:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #121214;
+  color: #fff;
+}
+
+header {
+  background-color: #17171a;
+  padding: 3rem 0 0 0;
+  margin-bottom: 3rem;
+}
+
+.header {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header span {
+  color: #e07b67;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 500;
+}
+
+.search {
+  position: relative;
+}
+
+.search img {
+  position: absolute;
+  top: 45%;
+  left: 1rem;
+
+  transform: translateY(-50%);
+}
+
+.search input {
+  width: 100%;
+  max-width: 1200px;
+  padding: 14px 0px;
+  padding-left: 3.5rem;
+  background: #202024;
+  border: 2px solid #252529;
+  margin: 2rem 0 2.5rem 0;
+}
+
+.search input::placeholder {
+  color: #afabb6;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+.posts {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.post {
+  margin-bottom: 2rem;
+  border: 2px solid #252529;
+  border-radius: 8px;
+  padding: 2rem;
+  background: #17171a;
+}
+
+.post-detalhe {
+  color: #e07b67;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.post-detalhe span {
+  font-size: 0.875rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+#icon {
+  fill: #17171a;
+  stroke: #e07b67;
+  stroke-width: 1;
+  transition: fill 0.3s;
+  cursor: pointer;
+}
+
+#icon.filled,
+#icon:hover {
+  fill: #e07b67;
+}
+
+.post h2 {
+  font-size: 1.5rem;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 500;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.post p {
+  font-size: 1rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  line-height: 1.5rem;
+  color: #afabb6;
+}
+
+.post:hover {
+  border: 2px solid #e07b67;
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 1rem;
+  }
+
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .posts {
+    padding: 0 1rem;
+  }
+
+  .post h2 {
+    font-size: 20px;
+  }
+  .post p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 425px) {
+  .header h1 {
+    font-size: 1.5rem;
+  }
+
+  .search input {
+    padding-left: 2.5rem;
+  }
+
+  .post h2 {
+    font-size: 18px;
+  }
+  .post p {
+    font-size: 12px;
+  }
+}
