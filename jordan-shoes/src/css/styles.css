@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 500;
+}
+
+.topo {
+  margin: 1.25rem 0;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #121214;
+}
+
+.bg-header {
+  background-image: url('../img/image-michael-jordan.png');
+  height: 25rem;
+  margin-bottom: 5rem;
+}
+
+header {
+  max-width: 1200px;
+  color: #fff;
+  margin: 0 auto;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+  padding: 5.75rem 0 0;
+  margin-bottom: 2.5rem;
+}
+
+header div p {
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 1.25rem;
+}
+
+header p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.4;
+  width: 525px;
+}
+
+main {
+  max-width: 1200px;
+  color: #121214;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+main > p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.4;
+  width: 590px;
+  margin: 0 auto 4.5rem;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-bottom: 6rem;
+}
+
+.card-img {
+  background: #f3f7ff;
+  padding: 2rem 4.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.card h3 {
+  font-size: 1.125rem;
+  line-height: 1.3;
+  margin-bottom: 0.75rem;
+}
+
+.card span {
+  color: #7ca2f4;
+  font-size: 1rem;
+}
+
+.card p {
+  margin-top: 1.5rem;
+  font-size: 1.125rem;
+}
+
+@media (max-width: 834px) {
+  .topo {
+    font-size: 1rem;
+    margin: 0.75rem 0;
+  }
+  .bg-header {
+    background-image: url('../img/image-michael-jordan-tablet.png');
+    height: 20rem;
+    margin-bottom: 3.5rem;
+  }
+  header {
+    max-width: 700px;
+  }
+  header div img {
+    width: 1.5rem;
+  }
+  header div p {
+    font-size: 1.125rem;
+  }
+  header h1 {
+    font-size: 1.5rem;
+  }
+  header p {
+    font-size: 1.125rem;
+    width: 400px;
+  }
+  main {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+  main > p {
+    font-size: 1rem;
+    width: 500px;
+  }
+  .card-img {
+    padding: 2rem 3rem;
+  }
+  .card h3 {
+    font-size: 1.125rem;
+  }
+  .card span {
+    font-size: 1rem;
+  }
+  .card p {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 430px) {
+  .topo {
+    font-size: 0.875rem;
+  }
+  header {
+    max-width: 300px;
+  }
+  header div p {
+    font-size: 1rem;
+  }
+  header p {
+    font-size: 1rem;
+    width: 300px;
+  }
+  main {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  h2 {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+  }
+  main > p {
+    font-size: 0.875rem;
+    width: 300px;
+    margin-bottom: 2.5rem;
+  }
+  .card-img {
+    padding: 2rem 2.875rem;
+  }
+  .card h3 {
+    font-size: 1rem;
+  }
+  .card p {
+    font-size: 1.25rem;
+  }
+}
