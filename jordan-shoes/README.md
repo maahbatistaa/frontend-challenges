@@ -2,8 +2,8 @@
 ### Stack utilizada
 ***Front-end:*** HTML e CSS
 
-<a href="https://maahbatistaa.github.io/codelab/jordan-shoes/">
-  <img src="../assets/jordan-shoes" />
+<a href="https://maahbatistaa.github.io/frontend-challenges/jordan-shoes/">
+  <img src="./src/img/jordan-shoes.png" />
 </a>
 
 
