@@ -1,0 +1,144 @@
+:root {
+  --dark-charcoal: #312e2c;
+  --dark-raspberry: #7a284e;
+  --brandy-red: #854632;
+  --wenge-brown: #5f564d;
+  --eggshell: #f3e5d7;
+  --white-coffee: #e3ddd7;
+  --snow: #fff7fb;
+  --white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+body {
+  background-color: var(--eggshell);
+  font-family: 'Outfit', sans-serif;
+}
+
+.content {
+  width: 46rem;
+  background-color: var(--white);
+  margin: 7.5rem auto;
+  border-radius: 1rem;
+  padding: 2.5rem;
+}
+
+img {
+  width: 40.5rem;
+  height: 18.75rem;
+  border-radius: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+h1 {
+  font-family: 'Young Serif', serif;
+  font-weight: 400;
+  color: var(--dark-charcoal);
+  margin-bottom: 1.5rem;
+}
+
+p {
+  color: var(--wenge-brown);
+  font-size: 1rem;
+  font-family: 'Outfit', sans-serif;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+ul li,
+ol li {
+  color: var(--wenge-brown);
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+
+h2 {
+  font-family: 'Young Serif', serif;
+  font-weight: 400;
+  color: var(--brandy-red);
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.preparation {
+  background-color: var(--snow);
+  padding: 1.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.preparation h3 {
+  color: var(--dark-raspberry);
+  margin-bottom: 1rem;
+  font-family: 500;
+  font-size: 1.25rem;
+}
+
+.preparation ul li span {
+  color: var(--dark-raspberry);
+  margin-right: 1.5rem;
+}
+
+.ingredients,
+.instructions {
+  margin-bottom: 2rem;
+}
+
+.ingredients ul li span,
+.instructions ol li span {
+  margin-right: 1.5rem;
+  color: var(--brandy-red);
+  font-weight: bold;
+}
+
+.divider {
+  border-top: 0.5px solid var(--white-coffee);
+  margin-bottom: 2rem;
+}
+
+.nutrition-data {
+  margin-left: 1.5rem;
+  display: grid;
+  grid-template-areas: 'categorie calories';
+  grid-template-columns: 288px 288px;
+  height: 35px;
+}
+
+.nutrition-data .calories {
+  color: var(--brandy-red);
+}
+
+.divider-nutrition {
+  border-top: 0.5px solid var(--white-coffee);
+  margin-bottom: 5px;
+}
+
+@media (max-width: 475px) {
+  .content {
+    margin: 0;
+    padding: 0;
+  }
+  main {
+    width: 375px;
+    padding: 0 2rem;
+  }
+  img {
+    width: 375px;
+    height: 171px;
+  }
+  h1 {
+    font-size: 2.25rem;
+  }
+  .nutrition-data {
+    grid-template-columns: 150px 110px;
+  }
+}
