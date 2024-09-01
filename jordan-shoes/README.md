@@ -1,4 +1,4 @@
-## [Jordan Shoes](./jordan-shoes)
+## [Jordan Shoes](../jordan-shoes)
 ### Stack utilizada
 ***Front-end:*** HTML e CSS
 

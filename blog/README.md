@@ -1,4 +1,4 @@
-## [Blog](./blog/)
+## [Blog](../blog/)
 ### Stack utilizada
 ***Front-end:*** HTML e CSS
 
