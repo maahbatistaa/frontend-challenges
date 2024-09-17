@@ -82,7 +82,7 @@ select {
   -webkit-appearance: none;
   appearance: none;
 
-  background: url('./img/chevron-down.svg') no-repeat;
+  background: url('../assets/icons/chevron-down.svg') no-repeat;
   background-position: calc(100% - 0.75rem) center !important;
   background-color: #0e0f25;
 
