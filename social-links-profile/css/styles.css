@@ -1,0 +1,13 @@
+:root {
+  --green: #c5f82a;
+  --white: #fff;
+  --grey-700: #333333;
+  --grey-800: #1f1f1f;
+  --grey-900: #141414;
+
+  --ff: 'Inter', sans-serif;
+  --fs-base: 0.875rem;
+  
+  --width-mobile: 375px;
+  --width-desktop: 1440px;
+}
