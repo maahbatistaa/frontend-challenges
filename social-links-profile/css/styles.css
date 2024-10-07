@@ -7,7 +7,28 @@
 
   --ff: 'Inter', sans-serif;
   --fs-base: 0.875rem;
-  
+
   --width-mobile: 375px;
   --width-desktop: 1440px;
+}
+
+body {
+  background-color: var(--grey-900);
+  color: var(--white);
+}
+
+.container {
+  max-width: 360px;
+  margin: 0 auto;
+  padding: 1.5rem 1.5rem;
+  background-color: var(--grey-800);
+}
+
+header {
+  text-align: center;
+}
+
+header img {
+  border-radius: 50%;
+  width: 80px;
 }
