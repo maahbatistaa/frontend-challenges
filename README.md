@@ -14,5 +14,6 @@ Projetos realizados com os challenges do: Codelab, Frontend Mentor, entre outros
 | ✅ | Tech News | [Acessar](https://www.figma.com/community/file/1362166020452569562) | [Acessar](https://maahbatistaa.github.io/frontend-challenges/tech-news/) | [Acessar](/tech-news/) | HTML e CSS |
 | ✅ | Formulário Matricula | [Acessar](https://www.figma.com/community/file/1365016793556649696) | [Acessar](https://maahbatistaa.github.io/frontend-challenges/formulario-matricula/) | [Acessar](/formulario-matricula/) | HTML e CSS |
 | ✅ | Zingen | [Acessar](https://www.figma.com/community/file/1371886246180677672) | [Acessar](https://maahbatistaa.github.io/frontend-challenges/zingen/) | [Acessar](/zingen/) | HTML e CSS |
+| ✅ | Snitap | [Acessar](https://www.figma.com/design/XK0ajxhl4lewICvyANKqhh/LP-de-patins-animada-(Community)) | [Acessar](https://maahbatistaa.github.io/frontend-challenges/patins-animation/) | [Acessar](/patins-animation/) | HTML e CSS |
 | ✅ | Convert | [Acessar](https://www.figma.com/community/file/1360315742205904074) | [Acessar](https://maahbatistaa.github.io/frontend-challenges/convert/) | [Acessar](/convert/) | HTML, CSS e JS |
 | ✅ | Refund | [Acessar](https://www.figma.com/community/file/1360316109107378379) | [Acessar](https://maahbatistaa.github.io/frontend-challenges/refund/) | [Acessar](/refund/) | HTML, CSS e JS |
