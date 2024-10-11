@@ -27,8 +27,8 @@ body {
   width: 384px;
   height: 522px;
   border-radius: 20px;
-  margin: 210px auto;
-
+  margin: 180px auto;
+  overflow: hidden;
   box-shadow: 8px 8px #000;
 
   & > img {
@@ -90,7 +90,7 @@ body {
     margin-top: 100px;
 
     & > img {
-      width: 279px; 
+      width: 279px;
     }
   }
 }
