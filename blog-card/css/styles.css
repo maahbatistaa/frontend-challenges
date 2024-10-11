@@ -82,11 +82,15 @@ body {
 }
 
 @media (width <= 420px) {
+  body {
+    overflow: hidden;
+  }
   .container {
     width: 327px;
+    margin-top: 100px;
 
     & > img {
-      width: 279px;
+      width: 279px; 
     }
   }
 }
