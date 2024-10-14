@@ -129,6 +129,22 @@ section.hero {
   }
 }
 
+@media (width <= 420px) {
+  section.hero {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  section.hero > div:nth-child(2) {
+    max-width: 100%;
+    height: 25rem;
+  }
+
+  .hero .buttons {
+    flex-direction: column;
+  }
+}
+
 @keyframes slideIn {
   50% {
     transform: translateX(-20px);

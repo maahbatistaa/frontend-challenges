@@ -98,6 +98,18 @@ section.gallery {
   }
 }
 
+@media (width <= 420px){
+  section.gallery {
+    & .content {
+      grid-template-areas:
+        'A A'
+        'B B'
+        'C C'
+        'D D';
+    }
+  }
+}
+
 @keyframes image-appear {
   from {
     opacity: 0;
