@@ -1,4 +1,4 @@
-## [Convert](../qr-code/)
+## [QR Code](../qr-code/)
 ### Stack utilizada
 ***Front-end:*** HTML e CSS
 

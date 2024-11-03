@@ -1,4 +1,4 @@
-## [Convert](../blog-card/)
+## [Blog Card](../blog-card/)
 ### Stack utilizada
 ***Front-end:*** HTML e CSS
 
